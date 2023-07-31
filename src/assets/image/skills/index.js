@@ -4,4 +4,4 @@ import Javascript from "./JavaScript.svg";
 import React from "./React-Light.svg";
 
 
-export {Html,Css,Javascript,React};
+export {Html,Css,Javascript,React,};

@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className='p-8'>
       <div className="flex flex-wrap gap-4">
-        <img className='w-64 rounded-full' src={Profile} alt="profile__picture" />
+        <img className='w-64 rounded-md' src={Profile} alt="profile__picture" />
         <div className='flex flex-col gap-2'> 
           <h1 className='font-bold text-5xl text-indigo-400'>Edward Joshua</h1>
           <p className='text-xl'>💻 Web developer</p>
@@ -17,7 +17,7 @@ const Home = () => {
       <div className="py-8">
       <h1 className='text-2xl font-bold text-indigo-500'>About Me</h1>
       <p className='h-2 border-t-[4px] border-indigo-500 w-[120px]'></p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus libero harum temporibus, magni voluptate mollitia quis. Quo, illum. Eveniet molestiae ratione rerum suscipit, officia perspiciatis ex reiciendis maxime fugiat sed?</p>
+      <p>Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings. To get an opportunity where I can make the best of my potential and contribute to the organization's growth.</p>
       </div>
 
 
@@ -37,10 +37,6 @@ const Home = () => {
       <p className='font-bold text'>Github :</p>
         <p><a href="https://github.com/rejoshua" rel="noreferrer" target='_blank' className='text-black'>rejoshua</a></p>
       </div>
-      
-    
-
-
       </div>
       </div>
 
